@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "840988226483",
+    "firebase_url": "https://testmd-3af08.firebaseio.com",
+    "project_id": "testmd-3af08",
+    "storage_bucket": "testmd-3af08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840988226483:android:87232262c8ebc16629d1c6",
+        "android_client_info": {
+          "package_name": "mobildev.iosm.com.medcineApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840988226483-38rtn8rq32fdnp7kqkhpempsv548qi5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mobildev.iosm.com.medcineApp",
+            "certificate_hash": "e6205cd9a8a142801cbe2e7cfb1c21df43054933"
+          }
+        },
+        {
+          "client_id": "840988226483-d0nsth29chl0k8vo3rfrnf726om3p10v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfs5VFxSLJWbHl5i1OxHdx67wHmMG5mL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840988226483-d0nsth29chl0k8vo3rfrnf726om3p10v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
