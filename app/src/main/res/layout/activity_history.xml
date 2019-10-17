@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mobildev.iosm.com.medcineapp.HistoryActivity">
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Score"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Wrong Answer"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+</LinearLayout>

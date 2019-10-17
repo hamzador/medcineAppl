@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartExamActivity" >
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="221dp"
+        android:layout_height="73dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/start_exam_button"
+        android:text="start_exam"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="224dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:text="number_of_questions"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/left_choice_button"
+            android:text="All" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/midle_choice_button"
+            android:text="20" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/midle_choice_button"
+            android:text="100" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/midle_choice_button"
+            android:text="50" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/midle_choice_button"
+            android:text="150" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/right_choice_button"
+            android:text="200" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_below="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginStart="50dp"
+            android:text="Show the Answer"
+            android:textSize="20sp" />
+
+        <com.github.angads25.toggle.widget.LabeledSwitch
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="25dp"
+            android:textSize="14sp"
+            app:colorBorder="#00b8e6"
+            app:on="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/l2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginStart="50dp"
+            android:text="Content on EXAM"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KROK 2019" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KROK 2018" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KROK 2017" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KROK 2016" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KROK 2015" />
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>
